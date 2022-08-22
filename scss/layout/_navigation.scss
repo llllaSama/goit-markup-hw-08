@@ -28,7 +28,11 @@
   margin-right: 50px;
 }
 .nav__item:last-child {
+  margin-right: 96;
+
+@media screen and (min-width: 1200px) {
   margin-right: 0;
+}
 }
 
 .mail-icon {
@@ -51,6 +55,7 @@
 .header__phone:focus {
   color: var(--accent-txt-cl);
 }
+
 
 .nav__link--current {
   color: var(--accent-txt-cl);
