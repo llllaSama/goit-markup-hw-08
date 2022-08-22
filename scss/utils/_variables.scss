@@ -1,0 +1,33 @@
+/**
+| ==========
+| block 1
+| ==========
+**/
+:root {
+    /* fonts */
+    --main-font: 'Roboto', sans-serif;
+    --scndry-font: 'Raleway', sans-serif;
+  
+    /* text colors */
+    --maint-txt-cl: #212121;
+    --scnd-txt-cl: #757575;
+    --accent-txt-cl: #2196f3;
+    --wht-txt-a60-cl: rgba(255, 255, 255, 0.6);
+  
+    /* bg-colors */
+    --dark-bg-cl: #2f303a;
+    --mid-bg-cl: #f5f4fa;
+    --wht-bg-cl: #ffffff;
+    --wht-mid-bg-cl: #e5e5e5;
+    --focus-btn-cl: #188ce8;
+    --black-cl: #000000;
+    --absolute0bg-cl: #ececec;
+    --ee-bg-cl: #eeeeee;
+    --cl-icons: #afb1b8;
+    --bg-overlay: rgba(33, 150, 243, 0.9);
+  
+    /* others */
+    --anim-main: 250ms;
+    --backdrop-cl: rgba(0, 0, 0, 0.2);
+    --cubic-bezier: cubic-bezier(0.4, 0, 0.2, 1);
+  }

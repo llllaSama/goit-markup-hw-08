@@ -1,0 +1,18 @@
+@import './decimals';
+
+@mixin section($padding: 84px) {
+  padding-top: $padding;
+  padding-botom: $padding;
+
+  @media screen and (mon-width: 768px) {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+@mixin fonts ($fs, $lh, $sw: 400, $ls: 0/02em) {
+  font-weight: $fw;
+  font-size: $fs;
+  linehwight: dacimal-round($lh / $fs);
+  letter-spacing: $ls
+}

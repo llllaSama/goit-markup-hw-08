@@ -1,0 +1,42 @@
+/**
+| ==========
+| block 4
+| ==========
+**/
+.header {
+    border-bottom: 1px solid var(--ee-bg-cl);
+  /*
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    */
+  }
+
+.logo-link {
+  font-family: var(--scndry-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  text-decoration: none;
+  color: var(--accent-txt-cl);
+  margin-right: 88px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+@media screen and (min-width: 768px) {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+@media screen and (min-width:1200px ) {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-right: 93px;
+}
+}
+.logo-accent {
+  color: var(--maint-txt-cl);
+}
+.logo-accent-ft {
+  color: var(--wht-bg-cl);
+}

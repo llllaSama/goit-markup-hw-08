@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Normalize -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.min.css"/>
+    <!--<link rel="stylesheet" href="./scc/styles.css" />-->
+</head>
+<body>
+    <!--Header section-->
+    <header class="header">
+      <div class="container header__container">
+       <a class="logo-link" href=./index.html">Web<span class="logo-accent">Studio</span></a>
+       <button class="menu-btn" type="button" data-menu-open>
+        <svg class="menu-svg"
+        width="40" height="40">
+          <use href="./image/icon/icons.svg#icon-menu"></use>
+        </svg>
+      </button>
+       <nav class="nav">
+        <ul class="nav__list list">
+          <li class="nav__item">
+            <a class="nav__link hdr-lnk link" href="./index.html">Студия</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link hdr-lnk nav__link--current link" href="portfolio.html">Портфолио</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link hdr-lnk link" href="#">Контакты</a>
+          </li>
+        </ul>
+       </nav>
+       <ul class="nav__contacts list">
+        <li class="contact__item">
+          <a class="header__phone mail link" href="mailto:info@devstudio.com">
+          <svg class="mail-icon" width="16" height="12">
+            <use href="./images/icons.svg#mail"></use>
+          </svg>info@devstudio.com</a>
+        </li>
+        <li class="contact__item">
+          <a class="header__phone phone link" href="tel:+380961111111">
+            <svg class="mail-icon" width="10" height="16">
+            <use href="./images/icons.svg#phone"></use>
+          </svg>+38 096 111 11 11</a>
+        </li>
+      </ul>
+     </div>
+    </header>
+    <!--Mail Section-->
+    <main>
+      <section class="section">
+        <div class="container">
+          <h1 class="visually-hidden">Наши проекты</h1>
+          <ul class="list gps-btns">
+            <li class="gps-btn-list">
+              <button class="gps-btn" type="button">Все</button>
+            </li>
+            <li class="gps-btn-list">
+              <button class="gps-btn" type="button">Веб-сайты</button>
+            </li class="gps-btn-list">
+            <li class="gps-btn-list" >
+              <button class="gps-btn" type="button">Приложения</button>
+            </li>
+            <li class="gps-btn-list">
+              <button class="gps-btn" type="button">Дизайн</button>
+            </li>
+            <li class="gps-btn-list">
+              <button class="gps-btn" type="button">Маркетинг</button>
+            </li>
+          </ul>
+          <ul class="prtf-cards list">
+            <li class="prtf-card">
+              <a class="prtf-link link" href="#">
+                <div class="overlay-img">
+                  <img class="pfoject-foto"
+                    src="./images/page_2/img1.jpg"
+                    alt="Готовый дизайн сайта открытый в окне на ноутбуке на белом фоне"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="prtf-overlay">
+                    <p class="prtf-overlay-txt">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                  </div>
+                </div>
+                <div class="cntnr-pic-info">
+                  <h2 class="prtf-card-name">Технокряк</h2>
+                  <p class="prtf-card-projct">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="prtf-card">
+              <a class="prtf-link link" href="#">
+                <div class="overlay-img">
+                  <img class="pfoject-foto"
+                    src="./images/page_2/img2.jpg"
+                    alt="Шикарно нарисованный постер с баскетболистами и мячем в стиле акварели"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="prtf-overlay">
+                    <p class="prtf-overlay-txt">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                </div>
+                </div>
+                <div class="cntnr-pic-info">
+                  <h2 class="prtf-card-name">Постер New Orlean vs Golden Star</h3>
+                  <p class="prtf-card-projct">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="prtf-card">
+              <a class="prtf-link link" href="#">
+                <div class="overlay-img">
+                  <img class="pfoject-foto"
+                    src="./images/page_2/img3.jpg"
+                    alt="Готовый дизайн логотира ресторана Seafood выполненый в стиле старый вывесок 40х-70х годов"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="prtf-overlay">
+                    <p class="prtf-overlay-txt">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                  </div>
+                </div>
+                <div class="cntnr-pic-info">
+                  <h2 class="prtf-card-name">Ресторан Seafood</h2>
+                  <p class="prtf-card-projct">Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="prtf-card">
+              <a class="prtf-link link" href="#">
+                <div class="overlay-img">
+                  <img class="pfoject-foto"
+                    src="./images/page_2/img4.jpg"
+                    alt="Черные наушники на белом фоне"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="prtf-overlay">
+                    <p class="prtf-overlay-txt">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                  </div>
+                </div>
+                <div class="cntnr-pic-info">
+                  <h2 class="prtf-card-name">Проект Prime</h2>
+                  <p class="prtf-card-projct">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="prtf-card">
+              <a class="prtf-link link" href="#">
+                <div class="overlay-img">
+                  <img class="pfoject-foto"
+                    src="./images/page_2/img5.jpg"
+                    alt="Две коробки разного цвета и размера нарисованные в минималистичном стиле"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="prtf-overlay">
+                    <p class="prtf-overlay-txt">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                  </div>
+                </div>
+                <div class="cntnr-pic-info">
+                  <h2 class="prtf-card-name">Проект Boxes</h2>
+                  <p class="prtf-card-projct">Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="prtf-card">
+              <a class="prtf-link link" href="#">
+                <div class="overlay-img">
+                  <img class="pfoject-foto"
+                    src="./images/page_2/img6.jpg"
+                    alt="Готовый сайт открытый на мониторе MAC на белом фоне"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="prtf-overlay">
+                    <p class="prtf-overlay-txt">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                  </div>
+                </div>
+                <div class="cntnr-pic-info">
+                  <h2 class="prtf-card-name">Inspiration has no Borders</h2>
+                  <p class="prtf-card-projct">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="prtf-card">
+              <a class="prtf-link link" href="#">
+                <div class="overlay-img">
+                  <img class="pfoject-foto"
+                    src="./images/page_2/img7.jpg"
+                    alt="Открытый мокап издания журнала лежащий на белом фоне"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="prtf-overlay">
+                    <p class="prtf-overlay-txt">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                  </div>
+                </div>
+                <div class="cntnr-pic-info">
+                  <h2 class="prtf-card-name">Издание Limited Edition</h2>
+                  <p class="prtf-card-projct">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="prtf-card">
+              <a class="prtf-link link" href="#">
+                <div class="overlay-img">
+                  <img class="pfoject-foto"
+                    src="./images/page_2/img8.jpg"
+                    alt="Мокап белой бирки с черным логотипом LAB на белом фоне"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="prtf-overlay">
+                    <p class="prtf-overlay-txt">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                  </div>
+                </div>
+                <div class="cntnr-pic-info">
+                  <h2 class="prtf-card-name">Проект LAB</h2>
+                  <p class="prtf-card-projct">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="prtf-card">
+              <a class="prtf-link link" href="#">
+                <div class="overlay-img">
+                  <img class="pfoject-foto"
+                    src="./images/page_2/img9.jpg"
+                    alt="Готовый дизайн приложения открытого на ноутбуке на белом столе"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="prtf-overlay">
+                    <p class="prtf-overlay-txt">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                  </div>
+                </div>
+                <div class="cntnr-pic-info">
+                  <h2 class="prtf-card-name">Growing Business</h2>
+                  <p class="prtf-card-projct">Приложение</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <!--Footer section-->
+    <footer class="footer">
+      <div class="footer__all container">
+        <div class="footer__contacts">
+          <a class="logo-link ftr-logo" href=./index.html">Web<span class="logo-accent-ft">Studio</span></a>
+          <address class="address">
+            <ul class="list footer__list">
+              <li class="foter_address_item">
+                <a
+                  class="ft-contct link map"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.google.com/maps/dir/50.5224419,30.498344">г. Киев, пр-т Леси Украинки, 26
+                </a>
+              </li>
+              <li class="foter_address_item">
+              <a class="ft-contct link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+              </li>
+               <li class="foter_address_item">
+                <a class="ft-contct link" href="tel:+380961111111">+38 096 111 11 11</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer__icons">
+          <p class="footer__header__icons">присоединяйтесь</p>
+          <ul class="footer__icon__list list">
+            <li class="footer__icon__item">
+              <a
+                class="ftr-social"
+                href="https://www.instagram.com/llllasama/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="instagram"
+              >
+              <svg class="ftr-svg" width="20" height="20">
+                <use href="./images/icons.svg#instagram"></use>
+              </svg>
+              </a>
+            </li>
+            <li class="footer__icon__item">
+              <a
+                class="ftr-social"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="twitter"
+              >
+              <svg class="ftr-svg" width="20" height="20">
+                <use href="./images/icons.svg#twitter"></use>
+              </svg>
+              </a>
+            </li>
+            <li class="footer__icon__item">
+              <a
+                class="ftr-social"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="facebook"
+              >
+              <svg class="ftr-svg" width="20" height="20">
+                <use href="./images/icons.svg#facebook"></use>
+              </svg>
+              </a>
+            </li>
+            <li class="footer__icon__item">
+              <a
+                class="ftr-social"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="linkedin"
+              >
+              <svg class="ftr-svg" width="20" height="20">
+                <use href="./images/icons.svg#linkedin"></use>
+              </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="prenumeration">
+          <p class="futer-input__title">Подпишитесь на рассылку</p>
+          <form class="futer__form" name="futer-form" autocomplete="off">
+            <label class="futer-form__grup" for="subscribe">
+            <input class="futer__input" type="email" id="subscribe" placeholder="Email"/>
+              <button class="futer__subscribe__bnt" type="submit">Подписаться<svg class="submit-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-submit"></use>
+              </svg></button>
+            </label>
+          </form>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/header-scroll.js"></script>
+    <script src="./js/menu.js"></script>
+</body>
+</html>

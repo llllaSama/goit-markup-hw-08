@@ -1,0 +1,28 @@
+/**
+| ==========
+| block 2
+| ==========
+**/
+body {
+  font-family: var(--main-font);
+  color: var(--maint-txt-cl);
+  background-color: var(--wht-bg-cl);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+.footer {
+  background-color: var(--dark-bg-cl);
+  /*padding: 60px 0;*/
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.secnd-page {
+  padding: 94px 94px;
+}

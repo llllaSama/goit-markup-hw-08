@@ -1,0 +1,183 @@
+/**
+| ==========
+| block 3
+| ==========
+**/
+.menu-btn {
+  margin-left: auto;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+
+@media screen and (min-width: 768px) {
+display: none;
+}
+}
+
+.hero__button {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    letter-spacing: 0.06em;
+    background-color: var(--accent-txt-cl);
+    color: var(--wht-bg-cl);
+    cursor: pointer;
+    border: 0;
+    padding: 10px 32px;
+    min-width: 200px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  
+    transition-property: background-color;
+    transition-timing-function: var(--cubic-bezier);
+    transition-duration: var(--anim-main);
+  
+    &:hover,
+    &:focus {
+    background-color: var(--focus-btn-cl);
+  }
+  }
+
+.futer__subscribe__bnt {
+display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 28px;
+  cursor: pointer;
+
+  transition-property: background-color;
+  transition-timing-function: var(--cubic-bezier);
+  transition-duration: var(--anim-main);
+
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  letter-spacing: 0.06em;
+  background-color: var(--accent-txt-cl);
+  color: var(--wht-bg-cl);
+  border: 0;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  position: relative;
+}
+// Mpdal subscribe btn
+.submit-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  letter-spacing: 0.06em;
+  background-color: var(--accent-txt-cl);
+  color: var(--wht-bg-cl);
+  cursor: pointer;
+  border: 0;
+  padding: 10px 32px;
+  min-width: 200px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+  transition-property: background-color;
+  transition-timing-function: var(--cubic-bezier);
+  transition-duration: var(--anim-main);
+
+}
+.submit-btn:hover,
+.submit-btn:focus {
+  background-color: var(--focus-btn-cl);
+}
+// Modal close btn
+.modal-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.modal-btn-svg {
+  transition-property: fill;
+  transition-duration: var(--anim-main);
+  transition-timing-function: var(--cubic-bezier);
+}
+
+.modal-btn:hover .modal-btn-svg {
+  fill: var(--accent-txt-cl);
+}
+.modal-btn:focus .modal-btn-svg {
+  fill: var(--accent-txt-cl);
+}
+
+// Second Page
+
+.gps-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  background-color: var(--mid-bg-cl);
+  color: var(--maint-txt-cl);
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  border: 0;
+  border-radius: 4px;
+  padding: 6px 22px;
+  transition-property: background-color, color, box-shadow;
+  transition-timing-function: var(--cubic-bezier);
+  transition-duration: var(--anim-main);
+}
+.gps-btn:hover,
+.gps-btn:focus {
+  background-color: var(--accent-txt-cl);
+  color: var(--wht-bg-cl);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.gps-btns {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+
+  gap: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 0;
+  margin-bottom: 50px;
+
+  @media screen and (min-width: 768px) {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+/*.gps-btn-list {
+  margin-right: 8px;
+}*/
+.gps-btn-list:last-child {
+  margin-right: 0;
+}

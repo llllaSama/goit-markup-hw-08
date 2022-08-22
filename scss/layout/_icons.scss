@@ -1,0 +1,144 @@
+  // About Icons
+.about__icon__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  /*margin-bottom: 30px;*/
+  margin-top: 0;
+  margin-bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.about__icon__item {
+  max-width: 450px;
+@media screen and (min-width: 768px) {
+  max-width: 354px;
+}
+@media screen and (min-width: 1200px) {
+  max-width: 270px;
+}
+}
+.about__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 270px;*/
+  height: 120px;
+  max-width: 450px;
+  background-color: var(--mid-bg-cl);
+  border-radius: 4px;
+
+  display: -webkit-box;
+  display: -ms-flexbox;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+
+@media screen and (min-width: 768px) {
+  width: 354px;
+}
+@media screen and (min-width: 1200px) {
+  width: 270px;
+}
+}
+
+  //Social Team Icons
+.social__icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 16px;
+}
+.social__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    color: var(--cl-icons);
+    border-radius: 50%;
+    transition-property: color, background-color;
+    transition-timing-function: var(--cubic-bezier);
+    transition-duration: var(--anim-main);
+}
+.social__link:hover,
+.social__link:focus {
+    background-color: var(--accent-txt-cl);
+    color: var(--wht-bg-cl);
+}
+.socian-svg {
+    fill: currentColor;
+}
+
+  // Clients Icont
+.clients__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  /*margin-top: 16px;*/
+  margin-top: 0;
+  margin-bottom: 0;
+
+  display: -webkit-box;
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+}
+.client__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 210px;
+  height: 92px;
+  border: 1px solid var(--cl-icons);
+  border-radius: 4px;
+  color: var(--cl-icons);
+  transition-property: color , border;
+  transition-timing-function: var(--cubic-bezier);
+  transition-duration: var(--anim-main);
+
+  display: -webkit-box;
+  display: -ms-flexbox;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+
+@media screen and (min-width: 768px) {
+  width: 226px;
+}
+@media screen and (min-width: 1200px) {
+  width: 170px;
+}
+}
+.client__icon:hover,
+.client__icon:focus   {
+  border: 1px solid var(--accent-txt-cl);
+  color: var(--accent-txt-cl);
+}
+.client-svg {
+  fill: currentColor;
+}
+
+  // Footer Icons
+.footer__icons {
+  margin-left: 70px;
+}
+
+.footer__icon__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
