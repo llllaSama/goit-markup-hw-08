@@ -132,7 +132,8 @@
 
   // Footer Icons
 .footer__icons {
-  margin-left: 70px;
+  /*margin-left: 70px;*/
+  margin-bottom: 60px;
 }
 
 .footer__icon__list {
@@ -141,4 +142,13 @@
   justify-content: center;
   gap: 10px;
   margin-top: 20px;
+
+  display: -webkit-box;
+  display: -ms-flexbox;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+
+@media screen and (min-width: 480px) {
+  margin-bottom: 60px;
+}
 }

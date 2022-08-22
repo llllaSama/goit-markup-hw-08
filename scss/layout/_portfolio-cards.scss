@@ -69,7 +69,7 @@
 }
 .prtf-link:hover .prtf-overlay {
   transform: translateY(0);
-  -webkit-transform: translateY(-100%)
+  /*-webkit-transform: translateY(-100%)*/
 }
 .prtf-link:focus .prtf-overlay {
   transform: translateY(0);
@@ -112,9 +112,9 @@
   transition-duration: var(--anim-main);
   transition-timing-function: var(--cubic-bezier);
 
-  -webkit-transform: translateY(0);
+  /*-webkit-transform: translateY(0);
   transform: translateY(0);
   -webkit-transition: -webkit-transform var(--anim-main);
-  transition: -webkit-transform var(--cubic-bezier);
+  transition: -webkit-transform var(--cubic-bezier);*/
 }
 
