@@ -1753,9 +1753,8 @@ address {
 }
 
 .prtf-link:hover .prtf-overlay {
-  -webkit-transform: translateY(0);
-          transform: translateY(0);
-  /*-webkit-transform: translateY(-100%)*/
+  transform: translateY(0);
+  -webkit-transform: translateY(-100%);
 }
 
 .prtf-link:focus .prtf-overlay {

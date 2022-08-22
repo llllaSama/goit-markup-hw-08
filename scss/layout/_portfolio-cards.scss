@@ -69,7 +69,7 @@
 }
 .prtf-link:hover .prtf-overlay {
   transform: translateY(0);
-  /*-webkit-transform: translateY(-100%)*/
+  -webkit-transform: translateY(-100%)
 }
 .prtf-link:focus .prtf-overlay {
   transform: translateY(0);
