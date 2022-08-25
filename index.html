@@ -23,12 +23,12 @@
     <!--Header section-->
     <header class="header" data-header>
       <div class="container header__container">
-       <a class="logo-link" href=./index.html">Web<span class="logo-accent">Studio</span></a>
-       <button class="menu-btn" type="button" data-menu-open>
-        <svg class="menu-svg"
-        width="40" height="40">
-          <use href="./image/icon/icons.svg#icon-menu"></use>
-        </svg>
+       <a class="logo-link" href=./index.html>Web<span class="logo-accent">Studio</span></a>
+       <button class="menu-btn" type="button" aria-label="memu-open" data-menu-open>
+        <svg class="mobile__icon"
+          width="40"
+          height="40">
+        <use href="./images/icons.svg#menu_24px"></use></svg>
       </button>
        <nav class="nav">
         <ul class="nav__list list">
@@ -169,8 +169,21 @@
           <h2 class="team__header">Наша команда</h2>
           <ul class="list team__list">
             <li class="team__item">
+              <picture>
+                <source
+                  media="(max-width: 767px)"
+                  srcset="./images/image_sizes/team/sm-tm/igor-sm@1.jpg 1x, ./images/image_sizes/team/sm-tm/igor-sm@2.jpg 2x"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="./images/image_sizes/team/md-tm/igor-md@1.jpg 1x, ./images/image_sizes/team/md-tm/igor-md@2.jpg 2x"
+                />
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="./images/image_sizes/team/lg-tm/igor-lg@1.jpg 1x, ./images/image_sizes/team/lg-tm/igor-lg@2.jpg 2x"
+                />
+              </picture>
               <img
-                srcset="./images/image_sizes/team/sm-tm/igor-sm@1.jpg 1x, ./images/image_sizes/team/sm-tm/igor-sm@2.jpg 2x"
                 src="./images/image_sizes/team/sm-tm/igor-sm@1.jpg"
                 alt="Портрет статного дизайнера Игоря в очках и красной рубашке"
                 width="450"
@@ -235,10 +248,23 @@
               </div>
             </li>
             <li class="team__item">
+              <picture>
+                <source
+                  media="(max-width: 767px)"
+                  srcset="./images/image_sizes/team/sm-tm/olga-sm@1.jpg 1x, ./images/image_sizes/team/sm-tm/olga-sm@2.jpg 2x"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="./images/image_sizes/team/md-tm/olga-md@1.jpg 1x, ./images/image_sizes/team/md-tm/olga-md@2.jpg 2x"
+                />
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="./images/image_sizes/team/lg-tm/olga-lg@1.jpg 1x, ./images/image_sizes/team/lg-tm/olga-lg@2.jpg 2x"
+                />
+              </picture>
               <img
-                srcset="./images/image_sizes/team/sm-tm/olga-sm@1.jpg 1x, ./images/image_sizes/team/sm-tm/olga-sm@2.jpg 2x"
-                src="./images/image_sizes/team/sm-tm/olga-sm@1.jpg 1x"
-                alt="Портрет молодой и радосной Ольги в очках и стильном пиджаке "
+                src="./images/image_sizes/team/sm-tm/olga-sm@1.jpg"
+                alt="Портрет молодой и радосной Ольги в очках и стильном пиджаке"
                 width="450"
                 height="260"/>
               <div class="team__box">
@@ -301,8 +327,21 @@
               </div>
             </li>
             <li class="team__item">
+              <picture>
+                <source
+                  media="(max-width: 767px)"
+                  srcset="./images/image_sizes/team/sm-tm/mykola-sm@1.jpg 1x, ./images/image_sizes/team/sm-tm/mykola-sm@2.jpg 2x"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="./images/image_sizes/team/md-tm/mykola-md@1.jpg 1x, ./images/image_sizes/team/md-tm/mykola-md@2.jpg 2x"
+                />
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="../images/image_sizes/team/lg-tm/mykola-lg@1.jpg 1x, ./images/image_sizes/team/lg-tm/mykola-lg@2.jpg 2x"
+                />
+              </picture>
               <img
-                srcset="./images/image_sizes/team/sm-tm/mykola-sm@1.jpg 1x, ./images/image_sizes/team/sm-tm/mykola-sm@2.jpg 2x"
                 src="./images/image_sizes/team/sm-tm/mykola-sm@1.jpg"
                 alt="Портрет счастливого маркетолога Николая и белой рубашке"
                 width="450"
@@ -367,8 +406,21 @@
               </div>
             </li>
             <li class="team__item">
+              <picture>
+                <source
+                  media="(max-width: 767px)"
+                  srcset="./images/image_sizes/team/sm-tm/miha-sm@1.jpg 1x, ./images/image_sizes/team/sm-tm/miha-sm@2.jpg 2x"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="./images/image_sizes/team/md-tm/miha-md@1.jpg 1x, ./images/image_sizes/team/md-tm/miha-md@2.jpg 2x"
+                />
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="../images/image_sizes/team/lg-tm/mykola-lg@1.jpg 1x, ./images/image_sizes/team/lg-tm/mykola-lg@2.jpg 2x"
+                />
+              </picture>
               <img
-                srcset="./images/image_sizes/team/sm-tm/miha-sm@1.jpg 1x, ./images/image_sizes/team/sm-tm/miha-sm@2.jpg 2x"
                 src="./images/image_sizes/team/sm-tm/miha-sm@1.jpg"
                 alt="Портрет довольного Мизаила в очках и черной футболке"
                 width="450"
@@ -604,10 +656,11 @@
           <p class="futer-input__title">Подпишитесь на рассылку</p>
           <form class="futer__form" name="futer-form" autocomplete="off">
             <label class="futer-form__grup" for="subscribe">
-            <input class="futer__input" type="email" id="subscribe" placeholder="Email"/>
+              <input class="futer__input" type="email" id="subscribe" placeholder="Email"/>
               <button class="futer__subscribe__bnt" type="submit">Подписаться<svg class="submit-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-submit"></use>
-              </svg></button>
+                </svg>
+              </button>
             </label>
           </form>
         </div>
@@ -663,9 +716,8 @@
     </div>
     <!-- Mobile menu -->
     <div class="menu-overlay is-hidden" data-menu>
-      <div class="menu-container is-open">
         <button class="menu-btn" type="button" data-menu-close>
-          <svg width="40" height="40">
+          <svg class="close__menu--svg" width="40" height="40"
             <use href="./image/icon/icons.svg#close_menu"></use>
           </svg>
         </button>
@@ -708,7 +760,6 @@
             <a href="" class="mobile-socilas-link link">LinkedIn</a>
           </li>
         </ul>
-      </div>
     </div>
     <script src="./js/header-scroll.js"></script>
     <script src="./js/modal.js"></script>

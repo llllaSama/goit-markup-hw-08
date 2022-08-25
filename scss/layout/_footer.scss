@@ -4,8 +4,9 @@
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;*/
-  margin-bottom: 60px;
+  // margin-bottom: 60px;
   text-align: center;
+
 
 @media screen and (min-width: 768px) {
   /*display: -webkit-box;
@@ -20,8 +21,10 @@
 }
 @media screen and (min-width: 1200px) {
   text-align: left;
+  margin-left: 215px;
   }
 }
+
 .footer__list {
   margin-top: 0;
   margin-bottom: 0;
@@ -36,12 +39,13 @@ address {
   margin-bottom: 60px;
   text-align: center;
 
-  @media screen and (min-width: 768px) {
-    margin-right: 70px;
-  }
-  @media screen and (min-width: 1200px) {
-    text-align: left;
-  }
+@media screen and (min-width: 768px) {
+  margin-right: auto;
+  margin-left: 76px;
+}
+@media screen and (min-width: 1200px) {
+  text-align: left;
+}
 }
 
 .ft-contct {
