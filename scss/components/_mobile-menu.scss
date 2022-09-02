@@ -15,11 +15,16 @@ background-color: transparent;
 border: none;
 cursor: pointer;
 
-background-color: lightgreen;
-
 @media screen and (min-width: 768px) {
   display: none;
 }
+}
+.menu-btn.menu-open {
+  fill: var(--black-cl);
+}
+.menu-btn .menu-open:hover,
+.menu-btn .menu-open:focus {
+  fill: var(--accent-txt-cl);
 }
 
 .close__menu--svg {
