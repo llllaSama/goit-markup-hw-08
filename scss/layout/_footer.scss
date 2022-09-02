@@ -17,11 +17,11 @@
   align-items: baseline;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;*/
-  margin-right: 60px;
+  // margin-right: 60px;
 }
 @media screen and (min-width: 1200px) {
   text-align: left;
-  margin-left: 215px;
+  // margin-left: 215px;
   }
 }
 
@@ -41,10 +41,11 @@ address {
 
 @media screen and (min-width: 768px) {
   margin-right: auto;
-  margin-left: 76px;
+
 }
 @media screen and (min-width: 1200px) {
   text-align: left;
+  margin-right: 70px;
 }
 }
 

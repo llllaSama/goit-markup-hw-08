@@ -2,7 +2,7 @@
   width: 450px;
 
 @media screen and (min-width: 768px) {
-  width: 354 px;
+  width: 354px;
 }
 @media screen and (min-width: 1200px) {
   width: 370px;
@@ -95,7 +95,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 370px;
+  width: 450px;
   height: 294px;
   padding: 63px 24px;
 
@@ -103,5 +103,12 @@
   transition-property: background-color, transform;
   transition-duration: var(--anim-main);
   transition-timing-function: var(--cubic-bezier);
+
+@media screen and (min-width: 768px) {
+  width: 354px;
+}
+@media screen and (min-width: 1200px) {
+   width: 370px;
+}
 
 }
