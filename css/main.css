@@ -456,7 +456,7 @@ img {
 .modal__p {
   font-weight: 400;
   font-size: 26px;
-  lighter: 1.2;
+  line-height: 1.2;
   color: black;
 }
 
@@ -1373,6 +1373,7 @@ address {
   background-color: var(--mid-bg-cl);
   padding-top: 60px;
   padding-bottom: 60px;
+  width: 100%;
 }
 @media screen and (min-width: 1200px) {
   .team {
@@ -1860,7 +1861,7 @@ address {
           justify-content: center;
   width: 450px;
   height: 294px;
-  padding: 63px 24px;
+  padding: 77px 24px;
   -webkit-transform: translateY(100%);
           transform: translateY(100%);
   -webkit-transition-property: background-color, -webkit-transform;
@@ -1875,10 +1876,12 @@ address {
 @media screen and (min-width: 768px) {
   .prtf-overlay {
     width: 354px;
+    padding: 49px 24px;
   }
 }
 @media screen and (min-width: 1200px) {
   .prtf-overlay {
     width: 370px;
+    padding: 63px 24px;
   }
 }/*# sourceMappingURL=main.css.map */
